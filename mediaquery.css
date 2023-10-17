@@ -1,0 +1,122 @@
+ 
+/* Resposive design */
+@media(max-width:1000px){
+    .nav .nav_ul, .nav .action_btn{
+        display: none;
+    }
+    .nav .toggle_btn{
+        display: block;
+        position: relative;
+        right: 10px;
+        /* border: 1px solid red; */
+         box-shadow: 8px 1px 6px #312c2c;
+ 
+    }
+    .dropdown_menu{
+        display: block;
+ 
+
+    }
+    #title-box{
+        width: 60%; 
+        float: left;
+        width: min-content;
+    }
+    #title-box h4{
+        width: min-content;
+    }
+    #title-box h1{
+        width: fit-content;
+    }
+    #short-intro{
+      width: fit-content;
+     }
+     .icons {
+ 
+        height: 40px;
+        width: 40px;
+ 
+    }
+    video{
+        display: none;
+    }
+    
+    .icons {
+        right: -8rem;
+        top: 16.8rem;
+        position: relative;
+        margin-top: 0px;
+        height: 25px;
+        width: 25px;
+        margin-right: 28px;
+    }
+    #short-intro {
+        width: fit-content;
+        font-size: 1.2rem;
+    }
+    #title-box h4 {
+        font-size: 1.8rem;
+        width: max-content;
+    }
+    #title-box h1 {
+        font-size: 1.3rem;
+        width: fit-content;
+        margin-top: 8px;
+    }
+    #dark-button {
+        display: flex;
+        width: fit-content;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: .7%;
+        left: 45%;
+        gap: 0.5rem;
+    }
+    #about_us {
+        display: flex;
+        height: 525px;
+        width: 100%;
+        /* border: 5px dotted rgb(219, 45, 45); */
+        /* border-radius: 0px 0px 53px 53px; */
+        border-top: none;
+    }
+    #feedbackForm label{
+        font-size: 1rem;
+    }
+}
+ 
+ 
+/* Resposive design */
+/* @media(max-width:1150px){
+     #home{
+        height: 568px;
+        border-radius: 0px;
+     }
+     video{
+        position: absolute;
+        top: -26px;
+        left: 0px;
+        bottom: 0px;
+        height: 760px;
+        width: 100%;
+        z-index: -1;
+     }
+}
+ 
+@media(max-width:1220px){
+    #home{
+       height: 732px;
+       border-radius: 18px;
+    }
+    
+
+}
+@media(max-width:1330px){
+    #home{
+       height: 732px;
+       border-radius: 18px;
+    }
+ 
+
+} */

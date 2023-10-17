@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Web_Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merriweather:wght@700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body class="dark-theme">
+    <header>
+        <div class="nav-box">
+            <div class="nav">
+                <div class="logo ">
+                    <a id="animated-text" href="#">Portfolio</a>
+                </div>
+                <ul class="nav_ul">
+                    <li class="nav_li"><a href="#home" id="">Home</a></li>
+                    <li class="nav_li"><a href="#skills" id="">Skills</a></li>
+                    <li class="nav_li"><a href="#projects" id="">Projects</a></li>
+                    <li class="nav_li"><a href="#certificates" id="">Certificates</a></li>
+                    <li class="nav_li"><a href="#feed-back" id="">feed Back</a></li>
+                    <li class="nav_li"><a href="#contact_us" id="">Contact Us</a></li>
+                    <li class="nav_li"><a href="#about_us" id="">About us</a></li>
+                </ul>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars" style="position: sticky; top:0%;"></i>
+                </div>
+                <div class="dropdown_menu">
+                    <li class="nav_li"><a href="#home" id="">Home</a></li>
+                    <li class="nav_li"><a href="#skills" id="">Skills</a></li>
+                    <li class="nav_li"><a href="#projects" id="">Projects</a></li>
+                    <li class="nav_li"><a href="#certificates" id="">Certificates</a></li>
+                    <li class="nav_li"><a href="#feed-back" id="">feed Back</a></li>
+                    <li class="nav_li"><a href="#contact_us" id="">Contact Us</a></li>
+                    <li class="nav_li"><a href="#about_us" id="">About us</a></li>
+                </div>
+                <div id="dark-button">
+                    <h3 style="font-size: 0.8rem;">Light</h3>
+                    <label class="switch">
+                        <input type="checkbox" id="themeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <h3 style="font-size: 0.8rem;">Dark</h3>
+                    </script>
+                </div>
+            </div>
+        </div>
+        <section id="home">
+            <div id="title-box">
+                <h4 id="ss1">FRONT-END WEB</h4>
+                <h4 id="ss1">DEVELOPER</h4>
+                <h2 id="ss2">BALA JEE</h2>
+
+                <div id="short-intro">
+                    <p id="short-intro1" id="animated-text">Hey there</p>
+                    <p id="short-intro2"> I'm Bala Jee, a skilled</p>
+                    <p id="short-intro3"> front-end web developer</p>
+                    <p id="short-intro4"> hailing from Bihar, India.</p>
+                </div>
+            </div>
+            <aside id="social-media-icon"></aside>
+            <div>
+                <a href="https://twitter.com/Abhishe32976560?t=YL1BGAq3_Nj5uHnFUC4bDA&s=09" target="_blank"><img
+                        class="icons"
+                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/Untitled-15-128.png"
+                        alt="twitter"></a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=100022531668620" target="_blank"><img class="icons"
+                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/Untitled-16-64.png"
+                        alt="facebook"></a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/abhishek-roy-71a2881b9/" target="_blank"><img class="icons"
+                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/Untitled-11-128.png"
+                        alt="linkedin"></a>
+            </div>
+            <div>
+                <a href="https://github.com/abhishek808319" target="_blank"><img class="icons"
+                        src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-64.png" alt="github"></a>
+            </div>
+            <div>
+                <a href="https://instagram.com/abhishek_roy_7861" target="_blank"><img class="icons"
+                        src="https://cdn2.iconfinder.com/data/icons/social-media-hexagon-design/512/instagram-64.png"
+                        alt="instagram"></a>
+            </div>
+            <div>
+                <a href="https://discord.gg/NK5NVYsd" target="_blank"><img class="icons"
+                        src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-64.png"
+                        alt="discord"></a>
+                </aside>
+        </section>
+        <section id="about_us">
+            <div id="about_us_box">
+                <h1>About Me</h1>
+                <div class="profile-container">
+                    <img id="profile-photo" src="profile.jpg" alt="Profile Photo" onclick="openProfile()">
+                </div>
+                <div class="profile-modal" id="profile-modal">
+                    <span class="close-button" onclick="closeProfile()">&times;</span>
+                    <img id="full-profile-photo" src="profile.jpg" alt="Full Profile Photo">
+                </div>
+                <p id="animated-text"> I am <strong>Bala Jee</strong>, a dedicated student residing in Gaya, Bihar. My
+                    academic journey is geared towards achieving a master's degree in computer science. Proficient in
+                    several programming languages, including C, C++, Java, and JavaScript, I specialize in Java. My
+                    passion lies in the realm of cybersecurity, where I aspire to make a mark. Explore my portfolio to
+                    discover my projects and skills in the field of technology and computer science.
+                </p>
+            </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1>My Skills</h1>
+            <p id="animated-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et natus voluptatum non
+                nostrum quos? Atque repellendus est repudiandae quasi rem doloribus fugit illo quia amet debitis,
+                necessitatibus sed adipisci. Tempora impedit inventore possimus, quis provident totam autem quo aperiam
+                sequi ducimus placeat error nesciunt consequuntur! Reprehenderit fugit veritatis facere porro!</p>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatum repudiandae odio
+                    adipisci ut et, eligendi obcaecati eos. Fugit vitae dolores id aperiam optio debitis laborum est
+                    sequi nam nemo architecto quas dicta commodi repellat maxime alias nihil reiciendis eos unde saepe,
+                    ipsa, eum pariatur iusto illum, iste, voluptas sapiente veritatis laudantium ea qui cum libero
+                    itaque praesentium placeat sint odit reiciendis molestiae commodi! Alias tenetur at ducimus
+                    molestiae voluptates, deleniti tempora maxime veritatis nostrum tempore obcaecati culpa quo debitis,
+                    voluptas sapiente repellat aperiam cumque assumenda commodi iure in accusantium pariatur.
+                    Praesentium laudantium illo repudiandae vitae debitis.</p>
+            </div>
+        </section>
+        <section id="certificates">
+            <h1>My Achievments In Programming Languages+</h1>
+
+        </section>
+
+        <section id="feed-back"> <h1>Feedback Form</h1>
+            <div class="form">
+                 
+                   
+                 
+                <div>
+                    <form id="feedbackForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="Feed">Feedback:</label>
+                        <textarea id="back" name="Feed" rows="4" required></textarea><br><br>
+
+                        <input  type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="contact_us">
+            <h1>Contact</h1>
+        </section>
+        <script src="index.js">
+        </script>
+    </header>
+    <footer style="text-align: center;">
+        copyright &copy; . All right reserved|since(2022)
+    </footer>
+</body>
+
+</html>
