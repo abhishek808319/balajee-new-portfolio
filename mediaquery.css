@@ -1,4 +1,10 @@
  
+  /* @media(max-width:1647px){
+        #certificates {
+ 
+        height: 740px;
+    } } */
+
 /* Resposive design */
 @media(max-width:1000px){
     .nav .nav_ul, .nav .action_btn{
@@ -75,7 +81,7 @@
     }
     #about_us {
         display: flex;
-        height: 600px;
+        height: 525px;
         width: 100%;
         /* border: 5px dotted rgb(219, 45, 45); */
         /* border-radius: 0px 0px 53px 53px; */
@@ -84,26 +90,113 @@
     #feedbackForm label{
         font-size: 1rem;
     }
+    #progress-im1 {
+        box-shadow: 4px 5px 8px 1px #f74a4a;
+        width: 50%;
+        height: 43%;
+        cursor: pointer;
+    }
+    .progress-report {
+        margin: 30px;
+        /* box-shadow: 4px 5px 8px 1px #f74a4a; */
+        width: 190px;
+        height: 97px;
+        border-radius: 25px;
+    }
+
+    #certificates {
+ 
+        height: 740px;
+    }
 }
  
  
 /* Resposive design */
-/* @media(max-width:1150px){
-     #home{
-        height: 568px;
-        border-radius: 0px;
-     }
-     video{
-        position: absolute;
-        top: -26px;
-        left: 0px;
-        bottom: 0px;
-        height: 760px;
-        width: 100%;
-        z-index: -1;
-     }
-}
+  @media(max-width:600px){
+    .skill-icons {
+        margin: 18px;
+        width: 70px;
+        height: 70px;}
+
+        .skill-icons img {
+            box-shadow: -2px -1px 5px 4px #656060;
+            border-radius: 25px;
+            width: 70px;
+            height: 70px;
+        }
+    }
+   
+
+@media(max-width:535px){
+    .progress-report {
+        margin: 30px;
+        /* box-shadow: 4px 5px 8px 1px #f74a4a; */
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    #certificates {
  
+        height: 550px;
+    }
+    #progress-im1 {
+        box-shadow: 4px 5px 8px 1px #f74a4a;
+        width: 40%;
+        height: 27%;
+        cursor: pointer;
+    }
+   
+}
+  @media(max-width:500px){
+        #about_us_box p {
+    font-size: 1.06rem;
+    font-family: "Inter variant0", Tofu;
+    font-weight: 200;
+    text-align: justify;
+    margin: 15px;
+}
+   
+} 
+@media(max-width:426px){
+    /* .icons {
+        right: -4rem;
+        top: 16.8rem;
+        position: relative;
+        margin-top: 0px;
+        height: 25px;
+        width: 25px;
+        margin-right: 28px;
+    } */
+    .progress-report {
+        margin: 30px;
+        /* box-shadow: 4px 5px 8px 1px #f74a4a; */
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    #certificates {
+ 
+        height: 1000px;
+    }
+    #about_us {
+       
+        height: 590px;
+ 
+    }
+}
+  
+@media(max-width:450px){
+.icons {
+    right: -4rem;
+    top: 16.8rem;
+    position: relative;
+    margin-top: 0px;
+    height: 25px;
+    width: 25px;
+    margin-right: 28px;
+}}
+ 
+ /*
 @media(max-width:1220px){
     #home{
        height: 732px;
