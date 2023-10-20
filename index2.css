@@ -328,6 +328,31 @@ font-size: 48px;
     border-radius: 31px;
  
 }
+ .skill-box-top{
+        margin-top: 30px;
+    }
+    .skill-box{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    .skill-icons{
+        margin: 26px;
+ 
+    width: 87px;
+    height: 87px;
+    border-radius: 25px;
+    }
+    .skill-icons img{
+        
+        box-shadow: -2px -1px 5px 4px #656060;
+    border-radius: 25px;
+    width: 97px;
+    height: 97px;
+    
+    }
 
 
       /*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>       PROJECTS        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
