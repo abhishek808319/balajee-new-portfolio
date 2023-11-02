@@ -24,10 +24,36 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <style>
-   
+    .skill-box-top{
+        margin-top: 30px;
+    }
+    .skill-box{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    .skill-icons{
+        margin: 26px;
+ 
+    width: 87px;
+    height: 87px;
+    border-radius: 25px;
+    }
+    .skill-icons img{
+        
+        box-shadow: -2px -1px 5px 4px #656060;
+    border-radius: 25px;
+    width: 97px;
+    height: 97px;
+    
+    }
     .bg-color {
         width: 100%;
         height: 479px;
@@ -79,26 +105,30 @@
         transform: translateX(50%);
       }
     }
+    .fb{
+        color: #000000;
+    font-size: 16px;
+    }
   
 </style>
 <body class="dark-theme">
     <header>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Nav Bar        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>  Nav Bar <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
                 <div class="nav-box">
             <div class="nav">
                 <div class="logo ">
                     <a id="animated-text" href="#">Portfolio</a>
                 </div>
-                <ul class="nav_ul">
-                    <li class="nav_li"><a href="#home" id="">Home</a></li>
-                    <li class="nav_li"><a href="#skills" id="">Skills</a></li>
-                    <li class="nav_li"><a href="#projects" id="">Projects</a></li>
-                    <li class="nav_li"><a href="#certificates" id="">Certificates</a></li>
-                    <li class="nav_li"><a href="#feed-back" id="">feed Back</a></li>
-                    <li class="nav_li"><a href="#contact_us" id="">Contact Us</a></li>
-                    <li class="nav_li"><a href="#about_us" id="">About us</a></li>
+                <ul class="nav_ul list">
+                    <li class="nav_li"><a href="#home" class="link">Home</a></li>
+                    <li class="nav_li"><a href="#skills" class="link">Skills</a></li>
+                    <li class="nav_li"><a href="#projects" class="link">Projects</a></li>
+                    <li class="nav_li"><a href="#certificates" class="link">Certificates</a></li>
+                    <li class="nav_li"><a href="#feed-back" class="link">feed Back</a></li>
+                    <li class="nav_li"><a href="#contact_us" class="link">Contact Us</a></li>
+                    <li class="nav_li"><a href="#about_us" class="link">About us</a></li>
                 </ul>
                 <div class="toggle_btn">
                     <i class="fa-solid fa-bars" style="position: sticky; top:0%;"></i>
@@ -111,25 +141,32 @@
                     <li class="nav_li"><a href="#feed-back" id="">feed Back</a></li>
                     <li class="nav_li"><a href="#contact_us" id="">Contact Us</a></li>
                     <li class="nav_li"><a href="#about_us" id="">About us</a></li>
+                    <span>Light theme</span>
+                    <div class="checkbox-wrapper-5">
+                        <div class="check">
+                          <input id="check-5" type="checkbox">
+                          <label for="check-5"></label>
+                        </div>
+                      </div>
                 </div>
                 <div id="dark-button">
-                    <h3 style="font-size: 0.8rem;">Light</h3>
+                    <h3 style="font-size: 0.8rem;">Dark</h3>
                     <label class="switch">
                         <input type="checkbox" id="themeToggle">
                         <span class="slider round"></span>
                     </label>
-                    <h3 style="font-size: 0.8rem;">Dark</h3>
-                    </script>
+                    <h3 style="font-size: 0.8rem;">Light</h3>
+     
                 </div>
             </div>
         </div>
 
- <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     HOME        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>     HOME  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
         <section id="home">
-            <div class="dark-theme bg-color"></div>
+            <!-- <div class="dark-theme bg-color"></div>
             <div class="dark-theme bg-color layer-1"></div>
-            <div class="dark-theme bg-color layer-2"></div>
+            <div class="dark-theme bg-color layer-2"></div> -->
      
             <div id="title-box">
                 <h4 id="ss1">FRONT-END WEB</h4>
@@ -143,40 +180,43 @@
                     <p id="short-intro4"> hailing from Bihar, India.</p>
                 </div>
             </div>
-            <aside id="social-media-icon"></aside>
-            <div>
-                <a href="https://twitter.com/Abhishe32976560?t=YL1BGAq3_Nj5uHnFUC4bDA&s=09" target="_blank"><img
-                        class="icons"
-                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/Untitled-15-128.png"
-                        alt="twitter"></a>
-            </div>
-            <div>
-                <a href="https://www.facebook.com/profile.php?id=100022531668620" target="_blank"><img class="icons"
-                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/Untitled-16-64.png"
-                        alt="facebook"></a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/abhishek-roy-71a2881b9/" target="_blank"><img class="icons"
-                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/Untitled-11-128.png"
-                        alt="linkedin"></a>
-            </div>
-            <div>
-                <a href="https://github.com/abhishek808319" target="_blank"><img class="icons"
-                        src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-64.png" alt="github"></a>
-            </div>
-            <div>
-                <a href="https://instagram.com/abhishek_roy_7861" target="_blank"><img class="icons"
-                        src="https://cdn2.iconfinder.com/data/icons/social-media-hexagon-design/512/instagram-64.png"
-                        alt="instagram"></a>
-            </div>
-            <div>
-                <a href="https://discord.gg/NK5NVYsd" target="_blank"><img class="icons"
-                        src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-64.png"
-                        alt="discord"></a>
-                </aside>
+            <div id="social-media-icon"> 
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                      <span class="tooltip">Whatsapp</span>
+                      <span> <a href="https://wa.me/message/QK243H6SF2J4B1"  target="_blank">   
+                        <i class="fa-brands fa-whatsapp fb"></i>
+        </a></span>
+                    </li>
+
+                    <li class="icon twitter">
+                      <span class="tooltip">Twitter</span>
+                      <span><a href="https://twitter.com/Abhishe32976560?t=YL1BGAq3_Nj5uHnFUC4bDA&s=09" target="_blank"><i class="fab fa-twitter fb"></i></a></span>
+                    </li>
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <a href="https://instagram.com/abhishek_roy_7861" target="_blank">  <i class="fa-brands fa-instagram fb"></i></a>
+                    </li>
+                    <li class="icon github">
+                      <span class="tooltip">Github</span>
+                      <span><a href="https://github.com/abhishek808319" target="_blank"><i class="fab fa-github fb"></i></a></span>
+                    </li>
+                    <li class="icon youtube">
+                      <span class="tooltip">Linkedin</span>
+                      <span><a href="https://www.linkedin.com/in/bala-jee-71a2881b9"><i class="fa-brands fa-linkedin-in fb" target="_blank"></i></a></span>
+                    </li>
+                    <li class="icon youtube">
+                      <span class="tooltip">Discord</span>
+                      <span><a href=""target="_blank"><i class="fa-brands fa-discord fb" ></i></a></span>
+                    </li>
+                  </ul>
+                
+                
+                
+                </div>
         </section>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     About Me        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                              <!-- >>>>>>>>>>>>>>>>>>>>>>  About Me   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
         <section id="about_us">
             <div id="about_us_box">
@@ -198,7 +238,7 @@
             </div>
         </section>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Skills       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                        <!-- >>>>>>>>>>>>>>>>>>>>>>>> Skills <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
         <section id="skills">
             <h1>My Skills</h1>
@@ -222,7 +262,7 @@
             </div>
         </section>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Projects        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                             <!-- >>>>>>>>>>>>>>>>>>>>>>>> Projects <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
         <section id="projects">
             <h1>Projects</h1>
@@ -231,7 +271,7 @@
             </div>
         </section>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Certificates        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                             <!-- >>>>>>>>>>>>>>>>>>>> Certificates      <<<<<<<<<<<<<<<<<<<<<<<<< -->
 
         <section id="certificates">
             <h1>My Achievments In Programming Languages</h1>
@@ -348,7 +388,7 @@
     </div>
             </section>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Feed BAck Form        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                                   <!-- >>>>>>>>>>>>>>>>>>> Feed BAck Form <<<<<<<<<<<<<<<<<<<<<<<<<<< -->
         <section id="feed-back"> <h1>Feedback Form</h1>
             <div class="form">
                   <div>
@@ -368,7 +408,7 @@
             </div>
         </section>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Contact us Page        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                              <!-- >>>>>>>>>>>>>>>>>>>>>>>  Contact us Page  <<<<<<<<<<<<<<<<<<<<<<<<<<< -->
         <section id="contact_us">
             <h1>Contact</h1>
         </section>
@@ -376,7 +416,7 @@
         </script>
     </header>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Footer        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+                                <!-- >>>>>>>>>>>>>>>>>>>>>>>>>  Footer  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
     <footer style="text-align: center;">
         copyright &copy; . All right reserved|since(2022)
     </footer>
