@@ -28,17 +28,27 @@ toggleBtn.onclick = function(){
  
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                Dark theme button        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+const checkB = document.getElementById("check-5");
+const header = document.body;
+
+ checkB.addEventListener("change", () => {
+    if (checkB.checked) {
+        body.classList.remove("dark-theme");
+    } else {
+        body.classList.add("dark-theme");
+    }
+});
 const themeToggle = document.getElementById("themeToggle");
 const body = document.body;
 
  themeToggle.addEventListener("change", () => {
     if (themeToggle.checked) {
-        body.classList.add("dark-theme");
-    } else {
         body.classList.remove("dark-theme");
+    } else {
+        body.classList.add("dark-theme");
     }
 });
-
+ 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                About me profile        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 function openProfile() {
     var modal = document.getElementById("profile-modal");
