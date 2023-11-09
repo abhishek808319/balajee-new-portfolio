@@ -29,7 +29,7 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <style>
-    .skill-box-top{
+    /* .skill-box-top{
         margin-top: 30px;
     }
     .skill-box{
@@ -78,7 +78,7 @@
     .layer-2 {
 
         animation-duration: 7s;
-    }
+    } */
 
  
 /*     .banner-text h2{
@@ -97,29 +97,66 @@
         margin: 0;
 
     } */
-    @keyframes animate {
+    /* @keyframes animate {
       0%{
         transform: translateX(-50%);
       }
       100%{
         transform: translateX(50%);
       }
-    }
-    .fb{
-        color: #000000;
-    font-size: 16px;
-    }
-  
+    } */
+
+ 
 </style>
 <body class="dark-theme">
     <header>
+      <div class="cube cube1">
+        <div class="face front"> </div>
+        <div class="face back"> </div>
+        <div class="face left"> </div>
+        <div class="face right"> </div>
+        <div class="face top"> </div>
+        <div class="face bottom"> </div>
+      </div>
+      <div class="cube cube2">
+        <div class="face front"> </div>
+        <div class="face back"> </div>
+        <div class="face left"> </div>
+        <div class="face right"> </div>
+        <div class="face top"> </div>
+        <div class="face bottom"> </div>
+      </div>
+      <div class="cube cube3">
+        <div class="face front"> </div>
+        <div class="face back"> </div>
+        <div class="face left"> </div>
+        <div class="face right"> </div>
+        <div class="face top"> </div>
+        <div class="face bottom"> </div>
+      </div>
+      <div class="cube cube4">
+        <div class="face front"> </div>
+        <div class="face back"> </div>
+        <div class="face left"> </div>
+        <div class="face right"> </div>
+        <div class="face top"> </div>
+        <div class="face bottom"> </div>
+      </div>
+      <div class="cube cube5">
+        <div class="face front"> </div>
+        <div class="face back"> </div>
+        <div class="face left"> </div>
+        <div class="face right"> </div>
+        <div class="face top"> </div>
+        <div class="face bottom"> </div>
+      </div>
 
                    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>  Nav Bar <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
                 <div class="nav-box">
             <div class="nav">
                 <div class="logo ">
-                    <a id="animated-text" href="#">Portfolio</a>
+                    <a   href="#">COS_<strong>Coder</strong></a>
                 </div>
                 <ul class="nav_ul list">
                     <li class="nav_li"><a href="#home" class="link">Home</a></li>
@@ -141,7 +178,7 @@
                     <li class="nav_li"><a href="#feed-back" id="">feed Back</a></li>
                     <li class="nav_li"><a href="#contact_us" id="">Contact Us</a></li>
                     <li class="nav_li"><a href="#about_us" id="">About us</a></li>
-                    <span>Light theme</span>
+ 
                     <div class="checkbox-wrapper-5">
                         <div class="check">
                           <input id="check-5" type="checkbox">
@@ -169,9 +206,22 @@
             <div class="dark-theme bg-color layer-2"></div> -->
      
             <div id="title-box">
-                <h4 id="ss1">FRONT-END WEB</h4>
+              <div class="container">
+                <p >I'm <br><span  class="auto-type"></span> </p>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings:["Bala\tjee", "Front-End\tDeveloper", "Gamer"],
+                    typeSpeed:150,
+                    backSpeed:150,
+                    loop:true
+                })
+            </script>
+                <!-- <h4 id="ss1">FRONT-END WEB</h4>
                 <h4 id="ss1">DEVELOPER</h4>
-                <h2 id="ss2">BALA JEE</h2>
+                <h2 id="ss2">BALA JEE</h2> -->
 
                 <div id="short-intro">
                     <p id="short-intro1" id="animated-text">Hey there</p>
@@ -180,37 +230,16 @@
                     <p id="short-intro4"> hailing from Bihar, India.</p>
                 </div>
             </div>
-            <div id="social-media-icon"> 
-                <ul class="wrapper">
-                    <li class="icon facebook">
-                      <span class="tooltip">Whatsapp</span>
-                      <span> <a href="https://wa.me/message/QK243H6SF2J4B1"  target="_blank">   
-                        <i class="fa-brands fa-whatsapp fb"></i>
-        </a></span>
-                    </li>
-
-                    <li class="icon twitter">
-                      <span class="tooltip">Twitter</span>
-                      <span><a href="https://twitter.com/Abhishe32976560?t=YL1BGAq3_Nj5uHnFUC4bDA&s=09" target="_blank"><i class="fab fa-twitter fb"></i></a></span>
-                    </li>
-                    <li class="icon instagram">
-                      <span class="tooltip">Instagram</span>
-                      <a href="https://instagram.com/abhishek_roy_7861" target="_blank">  <i class="fa-brands fa-instagram fb"></i></a>
-                    </li>
-                    <li class="icon github">
-                      <span class="tooltip">Github</span>
-                      <span><a href="https://github.com/abhishek808319" target="_blank"><i class="fab fa-github fb"></i></a></span>
-                    </li>
-                    <li class="icon youtube">
-                      <span class="tooltip">Linkedin</span>
-                      <span><a href="https://www.linkedin.com/in/bala-jee-71a2881b9"><i class="fa-brands fa-linkedin-in fb" target="_blank"></i></a></span>
-                    </li>
-                    <li class="icon youtube">
-                      <span class="tooltip">Discord</span>
-                      <span><a href=""target="_blank"><i class="fa-brands fa-discord fb" ></i></a></span>
-                    </li>
-                  </ul>
-                
+            <div class="socials">
+                <div class="line"></div>
+               <a href="https://www.facebook.com/profile.php?id=100022531668620"><i class="fa-brands fa-whatsapp fb"></i></a> 
+                <a href=""><i class="fab fa-twitter fb"></i></a>
+                <a href="https://instagram.com/abhishek_roy_7861" target="_blank">  <i class="fa-brands fa-instagram fb"></i></a>
+                <a href="https://github.com/abhishek808319" target="_blank"><i class="fab fa-github fb"></i></a>
+                <a href="https://www.linkedin.com/in/bala-jee-71a2881b9"><i class="fa-brands fa-linkedin-in fb" target="_blank"></i></a>
+                <a href=""target="_blank"><i class="fa-brands fa-discord fb" ></i></a>
+                <div class="line line2"></div>
+            </div>
                 
                 
                 </div>
@@ -222,7 +251,7 @@
             <div id="about_us_box">
                 <h1>About Me</h1>
                 <div class="profile-container">
-                    <img id="profile-photo" src="profile.jpg" alt="Profile Photo" onclick="openProfile()">
+                    <abbr title="Click me"><img id="profile-photo" src="profile.jpg" alt="Profile Photo" onclick="openProfile()"></abbr>
                 </div>
                 <div class="profile-modal" id="profile-modal">
                     <span class="close-button" onclick="closeProfile()">&times;</span>
@@ -240,27 +269,57 @@
 
                         <!-- >>>>>>>>>>>>>>>>>>>>>>>> Skills <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-        <section id="skills">
-            <h1>My Skills</h1>
-            <div class="skill-box skill-box-top ">
-                <div class="skill-icons"><img src="https://www.freeiconspng.com/thumbs/html5-icon/html5-icon-1.png" width="87px" height="87px" alt="HTML"></div>
-                <div class="skill-icons"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS"></div>
-                <div class="skill-icons"><img src="https://ih1.redbubble.net/image.815350031.4911/st,small,507x507-pad,600x600,f8f8f8.u1.jpg" alt=""></div>
-                <div class="skill-icons"><img src="https://www.kloia.com/hubfs/java-1.png" alt="JAVA"></div>
-              
-            </div>
-            <div class="skill-box">
-                <div class="skill-icons"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/926px-C_Programming_Language.svg.png" alt="C+"></div>
-                <div class="skill-icons"><img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="C++"></div>
-                <div class="skill-icons"><img src="https://www.rlogical.com/wp-content/uploads/2023/03/icon-botsrap-1.webp" alt="bootstrap"></div>
-
-            </div>
-            <div class="skill-box">
-                <div class="skill-icons"><img src="https://w7.pngwing.com/pngs/791/922/png-transparent-react-javascript-library-redux-user-interface-tesseract-logo-symmetry-nodejs.png" alt="react.js"></div>
-                <div class="skill-icons"><img src="https://e7.pngegg.com/pngimages/731/63/png-clipart-jquery%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E7%AF%84%E4%BE%8B%E6%95%99%E5%AD%B8-computer-icons-jquery-icon-web-design-text-thumbnail.png" alt="jquery"></div>
-
-            </div>
-        </section>
+                        <section id="skills">
+                            <h1>My Skills</h1>
+                            <div class="cards">
+                              <div class="skill-card">
+                                <img src="html.svg" alt="">
+                                <h2>HTML</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="css.svg" alt="">
+                                <h2>CSS</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="js.svg" alt="">
+                                <h2>JavaScript</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="react.svg" alt="">
+                                <h2>React.Js</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="bootstrap.png" alt="">
+                                <h2>bootstrap</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="c-sharp.png" alt="">
+                                <h2>C#</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="c-.png" alt="">
+                                <h2>C++</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="java.png" alt="">
+                                <h2>Java</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="linux.png" alt="">
+                                <h2>Linux</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="git.svg" alt="">
+                                <h2>Git</h2>
+                            </div>
+                            <div class="skill-card">
+                                <img src="cyber-security.png" alt="">
+                                <h2>cyber-security</h2>
+                            </div>
+                       
+                             
+                          </div>
+                          </section>
 
                              <!-- >>>>>>>>>>>>>>>>>>>>>>>> Projects <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
@@ -274,117 +333,157 @@
                              <!-- >>>>>>>>>>>>>>>>>>>> Certificates      <<<<<<<<<<<<<<<<<<<<<<<<< -->
 
         <section id="certificates">
-            <h1>My Achievments In Programming Languages</h1>
- 
-    <div class="progress-box">
-        <div class="progress-report">
-
-
-            <div >
-                <img id="progress-im1" src="certi.png" alt="progress-report" onclick="openProfile2()">
-            </div>
-            <div class="progress-model" id="progress-model">
-                <span class="close-button2" onclick="closeProfile2()">&times;</span>
-                <img id="full-progress-img1" src="certi.png" alt="Progress-report in full size">
-            </div>
-            
-
-        </div>
-        <div class="progress-report">
-
-
-                        <div >
-                <img id="progress-im1" src="certi2.png" alt="progress-report" onclick="openProfile3()">
-            </div>
-            <div class="progress-model" id="progress-mode2">
-                <span class="close-button2" onclick="closeProfile3()">&times;</span>
-                <img id="full-progress-img2" src="certi2.png" alt="Progress-report in full size">
-            </div>
-
-
-        </div>
-        <div class="progress-report">
-            
-
-            <div >
-                <img id="progress-im1" src="certi3.png" alt="progress-report" onclick="openProfile4()">
-            </div>
-            <div class="progress-model" id="progress-mode3">
-                <span class="close-button2" onclick="closeProfile4()">&times;</span>
-                <img id="full-progress-img3" src="certi3.png" alt="Progress-report in full size">
-            </div>
-
-
-        </div>
-        <div class="progress-report">
-
-
-                  <div >
-                <img id="progress-im1" src="certi4.png" alt="progress-report" onclick="openProfile5()">
-            </div>
-            <div class="progress-model" id="progress-mode4">
-                <span class="close-button2" onclick="closeProfile5()">&times;</span>
-                <img id="full-progress-img4" src="certi4.png" alt="Progress-report in full size">
-            </div>     
-
-
-        </div>
-
-    </div>
-
-    <div class="progress-box">
-        <div class="progress-report">
-
-
-                     <div >
-                <img id="progress-im1" src="certi.png" alt="progress-report" onclick="openProfile6()">
-            </div>
-            <div class="progress-model" id="progress-mode5">
-                <span class="close-button2" onclick="closeProfile6()">&times;</span>
-                <img id="full-progress-img5" src="certi.png" alt="Progress-report in full size">
-            </div>   
-
-
-        </div>
-        <div class="progress-report">
-            
-
-            <div >
-                <img id="progress-im1" src="certi2.png" alt="progress-report" onclick="openProfile7()">
-            </div>
-            <div class="progress-model" id="progress-mode6">
-                <span class="close-button2" onclick="closeProfile7()">&times;</span>
-                <img id="full-progress-img6" src="certi2.png" alt="Progress-report in full size">
-            </div>
-
-
-        </div>
-        <div class="progress-report">
-
-
-                      <div >
-                <img id="progress-im1" src="certi3.png" alt="progress-report" onclick="openProfile8()">
-            </div>
-            <div class="progress-model" id="progress-mode7">
-                <span class="close-button2" onclick="closeProfile8()">&times;</span>
-                <img id="full-progress-img7" src="certi3.png" alt="Progress-report in full size">
-            </div>  
-
-
-        </div>
-        <div class="progress-report">
-            
-
-            <div >
-                <img id="progress-im1" src="certi4.png" alt="progress-report" onclick="openProfile9()">
-            </div>
-            <div class="progress-model" id="progress-mode8">
-                <span class="close-button2" onclick="closeProfile9()">&times;</span>
-                <img id="full-progress-img8" src="certi4.png" alt="Progress-report in full size">
-            </div>
-
-
-        </div>
+            <h1>Certificates</h1>
+            <div class="certificates-container">
+              <div class="certificates-box">
+                <div class="certificates-icon">
+<abbr title="Click me"><img src="certificate-svgrepo-com.svg" alt=""  onclick="openProfile3()" style="cursor: pointer;"></abbr>
+                  
+                   
+                  <div class="progress-model" id="progress-mode2">
+                    <span class="close-button2" onclick="closeProfile3()">&times;</span>
+                    <img id="full-progress-img2" src="certi2.png" alt="Progress-report in full size">
+                </div>
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>HTML</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">
+                    <abbr title="Click me"><img src="certificate-svgrepo-com.svg" alt=""  ></abbr>
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>CSS</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+            <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">
+                  <abbr title="Click me"><img src="certificate-svgrepo-com.svg" alt=""  ></abbr>
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>JavaScript</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">
+                  <img src="certificate-svgrepo-com.svg" alt=""  >
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>REACT.JS</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">
+                  <img src="certificate-svgrepo-com.svg" alt=""  >
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>BOOTSTRAP</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">
+                  <img src="certificate-svgrepo-com.svg" alt=""  >
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>C Language</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">
+                  <img src="certificate-svgrepo-com.svg" alt=""  >
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>C++ Language</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                      <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="certificates-box">
+                <div class="certificates-icon">      <img src="certificate-svgrepo-com.svg" alt=""  >
+                </div>
+                <div class="certificates-detail">
+                  <div class="certificates-issued">
+                    <p>JAVA</p>
+                    <p>
+                      <span>Coursera</span>
+                      <br>
+                     <small>23 may 2023</small> 
+                    </p>
+                  </div>
+                  <div class="certificate-verification-icon">
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                  </div>
+                </div>
+              </div>
     </div>
             </section>
 
@@ -392,17 +491,19 @@
         <section id="feed-back"> <h1>Feedback Form</h1>
             <div class="form">
                   <div>
-                    <form id="feedbackForm">
+                      <form id="feedbackForm">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required><br><br>
+                        <input type="text" id="name" placeholder="Enter your name" name="name" required><br><br>
 
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required><br><br>
+                        <input type="email" id="email" placeholder="abcd12@xyz.com" name="email" required><br><br>
 
                         <label for="Feed">Feedback:</label>
-                        <textarea id="back" name="Feed" rows="4" required></textarea><br><br>
+                        <textarea id="back" placeholder="Here you give us fedback of this website" name="Feed" rows="4" required></textarea><br><br>
 
-                        <input  type="submit" value="Submit">
+                        <button class="button-41" role="button">
+                            <span class="text">Send</span>
+                          </button>
                     </form>
                 </div>
             </div>
@@ -411,6 +512,7 @@
                               <!-- >>>>>>>>>>>>>>>>>>>>>>>  Contact us Page  <<<<<<<<<<<<<<<<<<<<<<<<<<< -->
         <section id="contact_us">
             <h1>Contact</h1>
+        
         </section>
         <script src="index.js">
         </script>
@@ -418,7 +520,9 @@
 
                                 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>  Footer  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
     <footer style="text-align: center;">
-        copyright &copy; . All right reserved|since(2022)
+       <small>Designed & Developed <br>
+        by Bala jee</small> <br>
+      <small>copyright &copy; . All right reserved|since(2022)</small>  
     </footer>
 </body>
 
