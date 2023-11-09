@@ -82,9 +82,7 @@ margin-top: 63px;
         gap: 0.5rem;
     }
     #about_us {
-        display: flex;
-        height: 525px;
-        width: 100%;
+ 
         /* border: 5px dotted rgb(219, 45, 45); */
         /* border-radius: 0px 0px 53px 53px; */
         border-top: none;
@@ -106,17 +104,23 @@ margin-top: 63px;
         border-radius: 25px;
     }
 
-    #certificates {
- 
-        height: 740px;
-    }
+    .container p{
+        font-size: 40px;
+      }
 }
- 
+@media(max-width:900px){
+    .certificates-container{
+        padding: 1.5rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+      }
+}
  
 /* Resposive design */
   @media(max-width:600px){
     .skill-icons {
-        margin: 18px;
+   
         width: 70px;
         height: 70px;}
 
@@ -126,6 +130,9 @@ margin-top: 63px;
             width: 70px;
             height: 70px;
         }
+        .container p{
+            font-size: 25px;
+          }
     }
    
 
@@ -137,10 +144,7 @@ margin-top: 63px;
         height: 50px;
         border-radius: 25px;
     }
-    #certificates {
- 
-        height: 550px;
-    }
+
     #progress-im1 {
         box-shadow: 4px 5px 8px 1px #f74a4a;
         width: 40%;
@@ -152,10 +156,7 @@ margin-top: 63px;
   @media(max-width:500px){
         #about_us_box p {
     font-size: 1.06rem;
-    font-family: "Inter variant0", Tofu;
-    font-weight: 200;
-    text-align: justify;
-    margin: 15px;
+
 }
    
 } 
@@ -176,15 +177,8 @@ margin-top: 63px;
         height: 50px;
         border-radius: 25px;
     }
-    #certificates {
- 
-        height: 1000px;
-    }
-    #about_us {
-       
-        height: 590px;
- 
-    }
+
+
 }
   
 /* @media(max-width:450px){
