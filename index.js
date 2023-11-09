@@ -1,15 +1,16 @@
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                Logo animation        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-const text = document.getElementById('animated-text').textContent;
-const letters = text.split('');
+// const text = document.getElementById('animated-text').textContent;
+// const letters = text.split('');
 
-const animatedText = document.getElementById('animated-text');
-animatedText.textContent = '';
+// const animatedText = document.getElementById('animated-text');
+// animatedText.textContent = '';
 
-letters.forEach((letter, index) => {
-    setTimeout(() => {
-        animatedText.textContent += letter;
-    }, 100 * index);
-});
+// letters.forEach((letter, index) => {
+//     setTimeout(() => {
+//         animatedText.textContent += letter;
+//     }, 100 * index);
+// });
+
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                Home Menu Bar        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -48,6 +49,8 @@ const body = document.body;
         body.classList.add("dark-theme");
     }
 });
+
+
  
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                About me profile        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 function openProfile() {
