@@ -160,6 +160,17 @@ margin-top: 63px;
 }
    
 } 
+@media(max-width:450px){
+    .certificates-detail {
+ 
+        padding: 0.2rem;
+    }
+    .certificates-icon {
+        height: max-content;
+     
+        padding: 1rem;
+    }
+ } 
 @media(max-width:426px){
     /* .icons {
         right: -4rem;
@@ -170,6 +181,13 @@ margin-top: 63px;
         width: 25px;
         margin-right: 28px;
     } */
+    .container p {
+        font-size: 20px;
+    }s
+    #short-intro {
+        
+        font-size: 1rem;
+    }
     .progress-report {
         margin: 30px;
         /* box-shadow: 4px 5px 8px 1px #f74a4a; */
@@ -180,17 +198,14 @@ margin-top: 63px;
 
 
 }
-  
-/* @media(max-width:450px){
-.icons {
-    right: -4rem;
-    top: 16.8rem;
-    position: relative;
-    margin-top: 0px;
-    height: 25px;
-    width: 25px;
-    margin-right: 28px;
-}} */
+    @media(max-width:350px){
+        .certificates-detail {
+           
+            gap: 0.1rem;
+        
+        }
+    }
+
  
  /*
 @media(max-width:1220px){
